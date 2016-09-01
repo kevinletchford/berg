@@ -1,0 +1,54 @@
+body{
+	font-family: 'Slabo 27px', serif;
+	font-weight:300;
+	color:$off-black;
+	font-size: 100%;
+}
+
+
+h1,h2,h3,h4,h5{
+	font-family: 'Space Mono', monospace;
+	color:$orange;
+	line-height: 1.25em;
+	margin:1rem 0;
+	font-weight: bold;
+}
+
+
+h1{
+	font-size:2rem;
+}
+
+h2{
+	font-size:1.8rem;
+}
+
+h3{
+	font-size:1.6rem;
+}
+
+h4{
+	font-size:1.4rem;
+}
+
+h5{
+	font-size:2rem;
+}
+
+h6{
+	font-size:2rem;
+}
+
+p{
+	font-size: 1.35em;
+	line-height: 1.6em;
+	margin-bottom:1em;
+	padding:0.5em;
+	background: $light-grey;
+}
+
+
+
+body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
+  font-size-adjust: 0.5;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "ajax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "jspm": {
+    "dependencies": {
+      "browser-sync": "npm:browser-sync@^2.14.0",
+      "gulp": "npm:gulp@^3.9.1",
+      "gulp-sass": "npm:gulp-sass@^2.3.2",
+      "react": "npm:react@^15.3.0",
+      "react-dom": "npm:react-dom@^15.3.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}

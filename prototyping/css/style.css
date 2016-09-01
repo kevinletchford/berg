@@ -1,0 +1,122 @@
+/* Eric Meyer's Reset CSS v2.0 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: none; }
+
+img {
+  max-width: 100%; }
+
+input, textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0; }
+
+body {
+  font-family: 'Slabo 27px', serif;
+  font-weight: 300;
+  color: #294022;
+  font-size: 100%; }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Space Mono', monospace;
+  color: #FE7E07;
+  line-height: 1.25em;
+  margin: 1rem 0;
+  font-weight: bold; }
+
+h1 {
+  font-size: 2rem; }
+
+h2 {
+  font-size: 1.8rem; }
+
+h3 {
+  font-size: 1.6rem; }
+
+h4 {
+  font-size: 1.4rem; }
+
+h5 {
+  font-size: 2rem; }
+
+h6 {
+  font-size: 2rem; }
+
+p {
+  font-size: 1.35em;
+  line-height: 1.6em;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  background: #f9f9f9; }
+
+body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
+  font-size-adjust: 0.5; }
+
+.top-nav {
+  display: flex;
+  background: #1266FE;
+  justify-content: space-between;
+  font-family: 'Space Mono', monospace; }
+  .top-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem; }
+  .top-nav .logo {
+    font-size: 1.25rem; }
+
+.main-menu {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  background: #014fdc; }
+  .main-menu li {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .main-menu a {
+    text-transform: uppercase;
+    opacity: 0.85;
+    padding: 0 2rem; }
+  .main-menu:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 3.2rem solid transparent;
+    border-bottom: 0;
+    border-right: 60px solid #014fdc;
+    position: absolute;
+    left: -60px; }
+
+#main {
+  width: 60%;
+  margin: 0 auto; }

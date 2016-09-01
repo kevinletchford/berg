@@ -1,0 +1,54 @@
+body{
+
+}
+
+.top-nav{
+  display: flex;
+  background:$blue;
+  justify-content: space-between;
+  font-family: 'Space Mono', monospace;
+
+  a{
+    color:white;
+    text-decoration: none;
+    padding:1rem;
+  }
+  .logo{
+    font-size: 1.25rem;
+  }
+}
+
+.main-menu{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  background:darken($blue, 10%);
+
+  li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a{
+    text-transform: uppercase;
+    opacity: 0.85;
+    padding:0 2rem;
+  }
+
+  &:before{
+    content:"";
+    width: 0;
+    height: 0;
+    border-top:3.2rem solid transparent;
+    border-bottom: 0;
+    border-right: 60px solid darken($blue, 10%);
+    position: absolute;
+    left:-60px;
+  }
+}
+
+#main{
+  width:60%;
+  margin:0 auto;
+}
